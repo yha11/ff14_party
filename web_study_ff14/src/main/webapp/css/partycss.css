@@ -1,0 +1,13 @@
+.parent {
+    display: flex;
+}
+
+.child {
+    flex: 1;
+}
+
+table.list td,th{
+	border:#d3d3d3 solid 1px;
+	padding:5px;
+	text-align:center;
+}

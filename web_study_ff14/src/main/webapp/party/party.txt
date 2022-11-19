@@ -1,0 +1,15 @@
+CREATE SEQUENCE player_seq INCREMENT BY 1 START WITH 1;
+
+create table party(
+code number(4) primary key,
+id varchar2(18),
+server char(1),
+job varchar2(3),
+unionparty char(1),
+pwd char(4) default '0000',
+lev char(1) default '0'
+);
+
+insert into party values(player_seq.nextval, '월숙이', '3', '16', 'B', '1104', '1');
+
+commit;
